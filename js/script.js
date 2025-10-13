@@ -1,15 +1,7 @@
-var argButtonName, button_paper, button_rock, button_scissors;
-
-
-
-/**
- * Describe this function...
- */
 function buttonClicked(argButtonName) {
     clearMessages();
     console.log(argButtonName + ' został kliknięty');
 
-    var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
     /**
      * Describe this function...
@@ -46,6 +38,9 @@ function buttonClicked(argButtonName) {
         }
         printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
     }
+
+    let computerMove, playerMove, randomNumber;
+
 
     playerMove = argButtonName;
     randomNumber = Math.floor(Math.random() * 3 + 1);
