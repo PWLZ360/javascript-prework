@@ -39,7 +39,7 @@ function buttonClicked(argButtonName) {
         printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
     }
 
-    let computerMove, playerMove, randomNumber;
+
 
 
     playerMove = argButtonName;
